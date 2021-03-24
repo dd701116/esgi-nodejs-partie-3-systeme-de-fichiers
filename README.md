@@ -29,7 +29,7 @@ Enter your Heroku credentials.
 ...
 $ heroku create
 Creating arcane-lowlands-8408... done, stack is cedar
-https://protected-woodland-06129.herokuapp.com | git@heroku.com:arcane-lowlands-8408.git
+https://young-shelf-40805.herokuapp.com/ | git@heroku.com:young-shelf-40805.git
 Git remote heroku added
 $ git push heroku main
 ```
@@ -61,8 +61,7 @@ Affiche "Je n'ai rien reçu :(" si '<Un message\>' est vide ou ne contient que '
 
 ## DEMO
 
-Affiche le site de github (regardez l'url)
-Déployé sur heroku => https://protected-woodland-06129.herokuapp.com/?url=https://github.com
+Déployé sur heroku => https://young-shelf-40805.herokuapp.com/
 
 <br>
 <hr>
