@@ -1,0 +1,23 @@
+{
+  "name": "esgi-nodejs-partie-3-systeme-de-fichiers",
+  "version": "1.0.0",
+  "description": "Cours Node.jsCours Node.js - Partie 3 - Utilisation du système de fichiers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dd701116/esgi-nodejs-partie-3-systeme-de-fichiers.git"
+  },
+  "author": "Dieunelson Dorcelus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dd701116/esgi-nodejs-partie-3-systeme-de-fichiers/issues"
+  },
+  "homepage": "https://github.com/dd701116/esgi-nodejs-partie-3-systeme-de-fichiers#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
