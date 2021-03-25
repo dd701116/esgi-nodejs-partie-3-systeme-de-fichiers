@@ -3,7 +3,7 @@ Cours Node.jsCours Node.js - Partie 3 - Utilisation du système de fichiers
 
 
 ### Q1 : Complétez le programme Node.js ci-dessous puis cliquez sur "Run" pour le tester:
-```
+```javascript
 const fs = require('fs');
 
 const fichierSource = process.argv[2]; // nom de fichier récupéré depuis arguments de ligne de commande
@@ -24,7 +24,7 @@ fs.writeFileSync(fichierDestination, contenu);
 ```
 
 ### Q2 : Complétez le programme Node.js ci-dessous puis cliquez sur "Run" pour le tester:
-```
+```javascript
 const fs = require('fs');
 
 const fichierSource = process.argv[2]; // nom de fichier récupéré depuis arguments de ligne de commande
@@ -60,7 +60,7 @@ fs.readFile(fichierSource, async (err, data) => {
 ```
 
 ### Q3 : Complétez le programme Node.js ci-dessous puis cliquez sur "Run" pour le tester:
-```
+```javascript
 const fs = require('fs');
 
 const fichierSource = process.argv[2]; // nom de fichier récupéré depuis arguments de ligne de commande
@@ -102,7 +102,7 @@ lireFichier(fichierSource, (err, data) => {
 ```
 
 ### Q4 : Complétez le programme Node.js ci-dessous puis cliquez sur "Run" pour le tester:
-```
+```javascript
 const fs = require('fs');
 
 const fichierSource = process.argv[2]; // nom de fichier récupéré depuis arguments de ligne de commande
@@ -137,7 +137,7 @@ lireFichier(fichierSource).then(res => {
 ```
 
 ### Q5 : Complétez le programme Node.js ci-dessous puis cliquez sur "Run" pour le tester:
-```
+```javascript
 const fs = require('fs');
 
 const fichierSource = process.argv[2]; // nom de fichier récupéré depuis arguments de ligne de commande
